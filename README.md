@@ -30,7 +30,7 @@ TODO add more usage docs
 1. Publish to Hex
 
    ```
-   $ mix do hex.publish, hex.docs
+   $ mix hex.publish docs
    ```
 
 
