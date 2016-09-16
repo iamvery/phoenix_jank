@@ -1,0 +1,2 @@
+defmodule PhoenixJank do
+end
