@@ -40,6 +40,7 @@ defmodule PhoenixJank.Mixfile do
     [
       {:phoenix, "~> 1.0"},
       {:plug, "~> 1.1"},
+      {:ex_doc, ">= 0.0.0", only: :dev},
     ]
   end
 
