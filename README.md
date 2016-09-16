@@ -1,24 +1,39 @@
-# PhoenixJank
+# Phoenix Jank
 
-**TODO: Add description**
+[![Build Status][travis-img]][travis] [![Hex Version][hex-img]][hex]
 
-## Installation
+[travis-img]: https://travis-ci.org/iamvery/phoenix_jank.svg?branch=master
+[travis]: https://travis-ci.org/iamvery/phoenix_jank
+[hex-img]: https://img.shields.io/hexpm/v/phoenix_jank.svg
+[hex]: https://hex.pm/packages/phoenix_jank
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+[Phoenix][phoenix] integration with [Jank][jank] client library.
 
-  1. Add `phoenix_jank` to your list of dependencies in `mix.exs`:
+View the [Documentation][docs].
 
-    ```elixir
-    def deps do
-      [{:phoenix_jank, "~> 0.1.0"}]
-    end
-    ```
+## Usage
 
-  2. Ensure `phoenix_jank` is started before your application:
+1. Install with Hex:
 
-    ```elixir
-    def application do
-      [applications: [:phoenix_jank]]
-    end
-    ```
+   ```elixir
+   def deps do
+     [{:phoenix_jank, "~> 0.1.0"}]
+   end
+   ```
 
+TODO add more usage docs
+
+## Release
+
+1. Bump the version in `mix.exs`.
+1. Commit version with Git tag `vX.X.X`.
+1. Publish to Hex
+
+   ```
+   $ mix do hex.publish, hex.docs
+   ```
+
+
+[phoenix]: http://www.phoenixframework.org/
+[jank]: https://github.com/iamvery/jank
+[docs]: https://hexdocs.pm/phoenix_ratchet
