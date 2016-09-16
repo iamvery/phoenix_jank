@@ -1,0 +1,10 @@
+{
+  "name": "phoenix_jank",
+  "version": "0.1.0",
+  "description": "Integrates Elixir Phoenix with Jank client library.",
+  "author": "Jay Hayes (iamvery.com)",
+  "license": "MIT",
+  "dependencies": {
+    "jank": "^0.1.0"
+  }
+}
