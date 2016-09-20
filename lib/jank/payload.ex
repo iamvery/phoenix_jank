@@ -23,6 +23,10 @@ defmodule Jank.Payload do
     }
   end
 
+  def prepare(%{__struct__: _} = data) do
+    Map.from_struct(data) |> prepare
+  end
+
   def prepare(data) when is_map(data) do
     Enum.reduce data, %{}, fn
       ({key, value}, map) -> Map.put(map, key, prepare(value))
