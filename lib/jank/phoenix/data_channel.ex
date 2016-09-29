@@ -5,7 +5,7 @@ defmodule Jank.Phoenix.DataChannel do
 
   use Phoenix.Channel
 
-  @prefix "data"
+  @prefix "jank"
   def prefix, do: @prefix
 
   def join("#{@prefix}:" <> _topic, _payload, socket) do
