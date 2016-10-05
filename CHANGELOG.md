@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Using jank JS dependency on github for now. (TODO change this to release version before next release)
 - Struct data can be prepared for transmission (https://github.com/iamvery/phoenix_jank/pull/5)
 
+### Removed
+- Ratchet.Mutable (https://github.com/iamvery/phoenix_jank/pull/6)
+
 ## [0.1.0] - 2016-09-16
 
 Ported Jank-related files over from phoenix_ratchet
