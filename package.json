@@ -5,6 +5,6 @@
   "author": "Jay Hayes (iamvery.com)",
   "license": "MIT",
   "dependencies": {
-    "jank": "iamvery/jank"
+    "jank": "^0.2.0"
   }
 }
