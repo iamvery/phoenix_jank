@@ -26,11 +26,19 @@ TODO add more usage docs
 ## Release
 
 1. Bump the version in `mix.exs`.
+1. Bump the version in `package.json`.
+1. Add version to CHANGELOG.
 1. Commit version with Git tag `vX.X.X`.
 1. Publish to Hex
 
    ```
-   $ mix hex.publish docs
+   $ mix do hex.publish, hex.publish docs
+   ```
+
+1. Publish to npm
+
+   ```
+   $ npm publish
    ```
 
 
