@@ -6,6 +6,8 @@ project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.0]
+
 ### Added
 
 ### Changed
@@ -19,5 +21,6 @@ project adheres to [Semantic Versioning](http://semver.org/).
 
 Ported Jank-related files over from phoenix_ratchet
 
-[Unreleased]: https://github.com/iamvery/phoenix_jank/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/iamvery/phoenix_jank/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/iamvery/phoenix_jank/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/iamvery/phoenix_jank/compare/8bcb43...v0.1.0
