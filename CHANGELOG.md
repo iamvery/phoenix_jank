@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Change data topic prefix; no longer auto prefixes on frontend (https://github.com/iamvery/phoenix_jank/pull/4)
 - Using jank JS dependency on github for now. (TODO change this to release version before next release)
+- Struct data can be prepared for transmission (https://github.com/iamvery/phoenix_jank/pull/5)
 
 ## [0.1.0] - 2016-09-16
 
